@@ -1,4 +1,13 @@
-# Compiler Project
+# Features
+
+- Used ANTLR to define the language grammar and generate the lexical and syntactic analyzers;
+- Implemented lexical, syntactic, and semantic analysis to ensure correct language structure and type consistency;
+- Built and maintained a symbol table for variable, method, and scope management;
+- Performed semantic checks, including type verification, scope resolution, and method validation;
+- Generated intermediate code translated into Jasmin assembly, executable on the Java Virtual Machine (JVM);
+- Included error detection and reporting for syntax and semantic issues to improve debugging and usability;
+- Emphasized modular design to separate each compilation phase for clarity and maintainability;
+- Supported code optimization and efficient instruction generation in the code emission phase.
 
 ## Compiler Optimizations
 
