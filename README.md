@@ -9,7 +9,9 @@
 - Emphasized modular design to separate each compilation phase for clarity and maintainability;
 - Supported code optimization and efficient instruction generation in the code emission phase.
 
-## Compiler Optimizations
+# Screenshots
+
+# Compiler Optimizations
 
 This document describes the optimizations implemented in our JMM compiler. The compiler supports several optimization techniques that improve the efficiency and performance of the generated code.
 
@@ -141,7 +143,7 @@ end:
 
 This ensures expressions like `x != null && x.method()` don't cause null pointer exceptions when `x` is null.
 
-## 6. Field Access Optimization
+### Field Access Optimization
 
 Our compiler optimizes field access by generating appropriate `getfield` and `putfield` instructions in the OLLIR code, distinguishing between local variables and class fields for efficient memory access.
 
