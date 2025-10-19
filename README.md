@@ -9,8 +9,6 @@
 - Emphasized modular design to separate each compilation phase for clarity and maintainability;
 - Supported code optimization and efficient instruction generation in the code emission phase.
 
-# Screenshots
-
 # Compiler Optimizations
 
 This document describes the optimizations implemented in our JMM compiler. The compiler supports several optimization techniques that improve the efficiency and performance of the generated code.
