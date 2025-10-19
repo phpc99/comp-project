@@ -135,3 +135,8 @@ This ensures expressions like `x != null && x.method()` don't cause null pointer
 ## 6. Field Access Optimization
 
 Our compiler optimizes field access by generating appropriate `getfield` and `putfield` instructions in the OLLIR code, distinguishing between local variables and class fields for efficient memory access.
+
+# Authors
+- Alvaro Tomas Teixeira Silva Pacheco
+- Eduardo Renato Fernandes Barbosa
+- Pedro Henrique Pessôa Camargo
