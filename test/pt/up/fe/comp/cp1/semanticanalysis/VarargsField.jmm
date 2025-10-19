@@ -1,0 +1,11 @@
+class VarargsWrong {
+
+    public int foo() {
+        int a;
+        return a;
+    }
+    public int... varargTest(){
+        int a;
+        return a;
+    }
+}
